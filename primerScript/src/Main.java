@@ -1,58 +1,60 @@
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
 
-        System.out.println("Hello and welcome!");
+        System.out.println("Expresiones regulares");
 
-         //Valores enteros
+        //Valores enteros
         int a = 5;
         int b = 10;
 
         //Valores con decimales
-        double i = 2.1;
+        double i = 4.1;
         double j = 3.5;
 
         //Redondea hacia arriba
-        System.out.println(Math.ceil(i));
+        System.out.println("Redondea hacia arriba");
+        System.out.println(i + " = " + Math.ceil(i));
 
         //Redondea hacia abajo
-        System.out.println(Math.floor(j));
+        System.out.println("Redondea hacia abajo");
+        System.out.println(j + " = " + Math.floor(j));
 
         //Devuelve el valor mayor
-        System.out.println(Math.max(a,b));
+        System.out.println("Devuelve el valor mayor");
+        System.out.println("a = " + a + " b = "+ b + " => " + Math.max(a, b));
 
         //Imprime un numero elevado a otro
-        System.out.println(Math.pow(a,b));
+        System.out.println("Imprime un numero elevado a otro");
+        System.out.println("a = " + a + " b = "+ b + " => " + Math.pow(a, b));
 
         //Devuelve el valor absoluto de un argumento dado
-        System.out.println(Math.abs(j));
+        System.out.println("Devuelve el valor absoluto de un argumento dado");
+        System.out.println(j + " = " + Math.abs(j));
 
         //Devuelve la suma de sus argumentos
-        System.out.println(Math.addExact(a,b));
+        System.out.println("Devuelve la suma de sus argumentos");
+        System.out.println("a = " + a + " b = "+ b + " => " + Math.addExact(a, b));
 
         //Devuelve la tangente del arco de un angulo (-pi/2 y pi/2)
-        System.out.println(Math.atan(j));
+        System.out.println("Devuelve la tangente del arco de un angulo (-pi/2 y pi/2)");
+        System.out.println(j + " = " + Math.atan(j));
 
         //Devuelve la raiz cubica de un valor double
-        System.out.println(Math.cbrt(i));
+        System.out.println("Devuelve la raiz cubica de un valor double");
+        System.out.println(i + " = " + Math.cbrt(i));
 
         //Devuvleve el coseno hiperbolico de un valor double
-        System.out.println(Math.cosh(j));
+        System.out.println("Devuvleve el coseno hiperbolico de un valor double");
+        System.out.println(j + " = " + Math.cosh(j));
 
         //Devuelve el coseno trigonometrico de un angulo
-        System.out.println(Math.cos(j));
+        System.out.println("Devuelve el coseno trigonometrico de un angulo");
+        System.out.println(j + " = " + Math.cos(j));
 
         //Devuelve el numero elevado a la potencia de un valor double
-        System.out.println(Math.exp(i));
-
-
-
-
+        System.out.println("Devuelve el numero elevado a la potencia de un valor double");
+        System.out.println(i + " = " + Math.exp(i));
 
 
     }
-    }
+}
